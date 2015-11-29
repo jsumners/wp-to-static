@@ -1,0 +1,29 @@
+{
+  "name": "wp-to-static",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Sumners (james.sumners@gmail.com)",
+  "license": "MIT",
+  "bin": {
+    "wp-to-static": "./wp-to-static.js"
+  },
+  "dependencies": {
+    "canonical-path": "0.0.2",
+    "console-log-level": "^1.2.1",
+    "handlebars": "^4.0.5",
+    "isdebug": "^0.1.1",
+    "mkdirp": "^0.5.1",
+    "mkdirp-then": "^1.1.0",
+    "node-expat": "^2.3.11",
+    "node-xml-slicer": "jsumners/node-xml-slicer#f4a5692",
+    "wreck": "^6.3.0",
+    "yargs": "^3.30.0"
+  },
+  "devDependencies": {
+    "node-markdown": "^0.1.1"
+  }
+}
